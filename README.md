@@ -11,7 +11,8 @@ $ make library # Build the library
 $ make examples # Build the examples
 ```
 ## Using Infinity
-
+1. set server ip、server port、client ip、client port
+2. use `ibv_devinfo -v` command to check parameter and update in `infinity/src/infinity/core/Configuration.h`
 Using Infinity is straight-forward and requires only a few lines of C++ code.
 
 ```C
